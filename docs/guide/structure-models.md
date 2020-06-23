@@ -478,7 +478,7 @@ public function fields()
 }
 
 // filter out some fields, best used when you want to inherit the parent implementation
-// and exclude some sensitive fields.
+// and blacklist some sensitive fields.
 public function fields()
 {
     $fields = parent::fields();
